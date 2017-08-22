@@ -2,7 +2,9 @@
 
 import Foundation
 
-//0.写在前头，swift是type safe语言，简单理解对于任何一个变量，要有明确的认识是什么类型，允不允许为nil。
+/*swift基础*/
+
+//0.写在前面，swift是type safe语言，简单理解对于任何一个变量，要有明确的认识是什么类型，允不允许为nil。
 let name = "Aaron" //常量  通过Type Inference，swift可以判断出来name的类型
 var age = 27         //变量
 age = 28
