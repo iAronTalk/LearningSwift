@@ -6,5 +6,6 @@
         <page name='BasicOperators'/>
         <page name='StringsandCharacters'/>
         <page name='CollectionTypes'/>
+        <page name='ControlFlow'/>
     </pages>
 </playground>
