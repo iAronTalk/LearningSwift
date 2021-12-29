@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:1.The Basics.playground">
+   </FileRef>
+   <FileRef
+      location = "group:2.Basic Operator.playground">
+   </FileRef>
+   <FileRef
+      location = "group:3.String and Characters.playground">
+   </FileRef>
+   <FileRef
+      location = "group:4.Collection Type.playground">
+   </FileRef>
+   <FileRef
+      location = "group:5.Control Flow.playground">
+   </FileRef>
+   <FileRef
+      location = "group:6.Functions.playground">
+   </FileRef>
+   <FileRef
+      location = "group:7.Closures.playground">
+   </FileRef>
+   <FileRef
+      location = "group:8.Enumerations.playground">
+   </FileRef>
+   <FileRef
+      location = "group:9.Structures adn Classes.playground">
+   </FileRef>
+   <FileRef
+      location = "group:10.Properties.playground">
+   </FileRef>
+   <FileRef
+      location = "group:11.Methods.playground">
+   </FileRef>
+   <FileRef
+      location = "group:12.Subscript.playground">
+   </FileRef>
+</Workspace>
