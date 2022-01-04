@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../../../../Desktop/LearningSwift/Inheritance.playground">
+   </FileRef>
+   <FileRef
       location = "group:1.The Basics.playground">
    </FileRef>
    <FileRef
@@ -36,5 +39,50 @@
    </FileRef>
    <FileRef
       location = "group:12.Subscript.playground">
+   </FileRef>
+   <FileRef
+      location = "group:13.Inheritance.playground">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/aaron/Documents/LearningProjects/LearningSwift/LearningSwift/14.Initialization&amp;Deinitialization.playground">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/aaron/Documents/LearningProjects/LearningSwift/LearningSwift/15.Optional Chaining.playground">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/aaron/Documents/LearningProjects/LearningSwift/LearningSwift/16.Error Handling.playground">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/aaron/Documents/LearningProjects/LearningSwift/LearningSwift/17. Concurrency.playground">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/aaron/Documents/LearningProjects/LearningSwift/LearningSwift/18.Type Casting.playground">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/aaron/Documents/LearningProjects/LearningSwift/LearningSwift/19.Nested Types.playground">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/aaron/Documents/LearningProjects/LearningSwift/LearningSwift/20.Extensions.playground">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/aaron/Documents/LearningProjects/LearningSwift/LearningSwift/21.Protocols.playground">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/aaron/Documents/LearningProjects/LearningSwift/LearningSwift/22.Generics.playground">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/aaron/Documents/LearningProjects/LearningSwift/LearningSwift/23.Opaque Types.playground">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/aaron/Documents/LearningProjects/LearningSwift/LearningSwift/24.Automatic Reference Counting.playground">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/aaron/Documents/LearningProjects/LearningSwift/LearningSwift/25.Memory Safety.playground">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/aaron/Documents/LearningProjects/LearningSwift/LearningSwift/26.Access Control.playground">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/aaron/Documents/LearningProjects/LearningSwift/LearningSwift/27.Advanced Operators.playground">
    </FileRef>
 </Workspace>
