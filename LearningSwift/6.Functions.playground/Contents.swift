@@ -35,7 +35,7 @@ func someFunction2(parameterWithoutDefault: Int, parameterWithDefault: Int = 12)
 
 someFunction2(parameterWithoutDefault: 1)
 
-// Variadic Parameters
+// Variadic Parameters (一个可变形式参数可以接受 或 多个特定类型的值)
 // The values passed to a variadic parameter are made available within the function’s body as an array of the appropriate type.
 // 感觉不算是什么特别实用的tips
 func arithmeticMean(_ numbers: Double...) -> Double {
@@ -74,8 +74,12 @@ func chooseStepFunction(backward: Bool) -> (Int) -> Int {
 }
 
 // nested function
-func chooseStepFunction(backward: Bool) -> (Int) -> Int {
+func chooseStepFunction2(backward: Bool) -> (Int) -> Int {
     func stepForward(input: Int) -> Int { return input + 1 }
     func stepBackward(input: Int) -> Int { return input - 1 }
     return backward ? stepBackward : stepForward
 }
+
+// inout 参数 使用的时候使用&。
+
+

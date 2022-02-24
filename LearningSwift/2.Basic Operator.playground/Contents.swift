@@ -28,3 +28,25 @@ for name in names[...3] {
 for name in names[..<3] {
     print(name)
 }
+
+func findLostTwoNumbers(_ numbers:[UInt]) -> (UInt, UInt) {
+    var lost1: UInt = 0
+    var lost2: UInt = 0
+    var temp: UInt = 0
+    var flag: UInt = 1
+    for num in numbers {
+        temp = temp ^ num
+    }
+    
+    while (temp & flag) == 0 {
+        flag = flag << 1
+    }
+    for num in numbers {
+        if (num & flag) == 0 {
+            lost1 = lost1 ^ num
+        } else {
+            lost2 = lost2 ^ num
+        }
+    }
+    return (lost1, lost2)
+}

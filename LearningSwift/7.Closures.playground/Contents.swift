@@ -7,14 +7,20 @@ import UIKit
 //}
 // 内置closure
 let names = ["aaron", "aarin", "lily", "tim", "tom"]
-var reversedNames = names.sorted(by: { (s1: String, s2: String) -> Bool in return s1 > s2 } )
+var reversedNames = names.sorted(by: { (s1: String, s2: String) -> Bool in
+    return s1 > s2 }
+)
 
 reversedNames = names.sorted(by: { s1, s2 in return s1 > s2 } ) // not recommend, not readable
 
+// 单表达式才可以。
 reversedNames = names.sorted(by: { s1, s2 in s1 > s2 } ) // only happens to Single-Expression Closures
 
+// 单表达式才可以。 Swift  动对行内 包提供简写实际参数名 可以   $0 , $1 , $2 等名字来引用 包
+// 的实际参数值。
 reversedNames = names.sorted(by: { $0 > $1 } ) // type/return/in all can be omited
 
+// 单表达式才可以。
 reversedNames = names.sorted(by: >) // 大无语事件
 
 // 函数
@@ -30,6 +36,7 @@ someFunctionThatTakesAClosure(closure: {
 
 // Here's how you call this function with a trailing closure instead:
 // 闭包，可以把closure放置后面
+// 作为函数最后一个实际参数传给函数
 someFunctionThatTakesAClosure() {
     // trailing closure's body goes here
 }

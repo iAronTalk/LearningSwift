@@ -49,6 +49,8 @@ let index1 = greetingGuten.index(greetingGuten.startIndex, offsetBy: 4)
 let indexT = greetingGuten.firstIndex(of: "T") ?? greeting.endIndex
 let toFirstT = greetingGuten[..<indexT]
 
+let firstChar = greetingGuten[greetingGuten.startIndex]
+
 print(type(of: toFirstT))
 
 print(greetingGuten[index1])
@@ -65,3 +67,11 @@ for utf8D in greetingDog.utf8 {
 }
 
 // 留下两个目前不那么重要的问题，UTF-8 和 Unicode Scalar 啥区别？简答，两种编码，utf-8 更省磁盘。
+
+let names = ["a", "b", "c", "d", "e"]
+let range2 = ...2
+for i in names[range2] {
+    print(i)
+}
+
+

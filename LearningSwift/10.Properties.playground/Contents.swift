@@ -55,7 +55,9 @@ struct TwelveOrLess {
         get {return number}
         set { number = min(newValue, maximum)}
     }
-    
+    var whatsthis: Int = {
+        return 5
+    }()
     init() {
         maximum = 12
         number = 0
@@ -168,3 +170,6 @@ class subSomeClass2: SomeClass2 {
         return 108
     }
 }
+
+let whatsthis = TwelveOrLess()
+print(whatsthis.whatsthis)
